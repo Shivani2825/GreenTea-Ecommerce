@@ -1,0 +1,489 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Hi Garden Tea</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/templatemo.css' %}">
+    <link rel="stylesheet" href="{% static 'css/custom.css' %}">
+
+    <!-- Load fonts style after rendering the layout styles -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
+    <link rel="stylesheet" href="{%static 'css/fontawesome.min.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <!--
+
+    
+
+-->
+</head>
+
+<body>
+    <!-- Start Top Nav -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-light d-none d-lg-block" id="templatemo_nav_top">
+        <div class="container text-light">
+            <div class="w-100 d-flex justify-content-between">
+                <div>
+                    <i class="fa fa-envelope mx-2"></i>
+                    <a class="navbar-sm-brand text-light text-decoration-none" href=" vipkaorganics@gmail.com">  vipkaorganics@gmail.com</a>
+                    <i class="fa fa-phone mx-2"></i>
+                    <a class="navbar-sm-brand text-light text-decoration-none" href="tel:+91 93033 26202">+91 93033 26202</a>
+                </div>
+                <div>
+                    <a class="text-light" href="https://wa.me/9303326202" target="_blank"><i style="font-size:24px" class="fa">&#xf232;</i></a>
+                    <a class="text-light" href="https://www.instagram.com/p/CdgdsTwKvVY/?igshid=MDJmNzVkMjY=.com/" target="_blank"><i class="fab fa-instagram fa-sm fa-fw me-2"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Close Top Nav -->
+
+
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-light shadow">
+        <div class="container d-flex justify-content-between align-items-center" style="background-color: ;#fbff09">
+
+            <a class="navbar-brand text-success logo h1 align-self-center" href="index.html"><img src="{% static 'img/Hi ! Garden Tea.png' %}" alt=width="70" height="70"> 
+            </a>
+
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#templatemo_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="templatemo_main_nav">
+                <div class="flex-fill">
+                    <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="home/">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/about/">About</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="/contact/">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                
+            </div>
+
+        </div>
+    </nav>
+    <!-- Close Header -->
+
+    <!-- Modal -->
+    <div class="modal fade bg-white" id="templatemo_search" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="w-100 pt-1 mb-5 text-right">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form action="" method="get" class="modal-content modal-body border-0 p-0">
+                <div class="input-group mb-2">
+                    <input type="text" class="form-control" id="inputModalSearch" name="q" placeholder="Search ...">
+                    <button type="submit" class="input-group-text bg-success text-light">
+                        <i class="fa fa-fw fa-search text-white"></i>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+    <!-- Start Banner Hero -->
+    <div id="template-mo-zay-hero-carousel" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="1"></li>
+            <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="container">
+                    <div class="row p-5">
+                        <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                            <img class="img-fluid" src="{% static 'img/banner_img_01.png' %}" alt="">
+                        </div>
+                        <div class="col-lg-6 mb-0 d-flex align-items-center">
+                            <div class="text-align-left align-self-center">
+                                <h1 class="h1 text-success"><b>Hi Garden</b>Tea</h1>
+                                <h3 class="h2">Darjelling Tea</h3>
+                                <p>
+                                    Darjeeling tea increases blood flow and reduces the oxidation of LDL cholesterol. Furthermore, 
+                                    it is rich in quercetin. The compound has been found to reduce the risk of atherosclerosis,
+                                    which is the buildup of plaque in the arteries that can lead to a heart attack or a stroke.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container">
+                    <div class="row p-5">
+                        <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                            <img class="img-fluid" src="{% static 'img/banner_img_02.png;' %}" alt="">
+                        </div>
+                        <div class="col-lg-6 mb-0 d-flex align-items-center">
+                            <div class="text-align-left">
+                                <h1 class="h1">Hi Garden Tea</h1>
+                                <h3 class="h2">chocolate tea</h3>
+                                <p>
+                                    The flavanols in chocolate have antioxidant, anti-inflammatory properties,
+                                    keeping free radicals at bay. They help to invade cells and reduce cancer risk.
+
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container">
+                    <div class="row p-5">
+                        <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                            <img class="img-fluid" src="{% static 'img/banner_img_03.png' %}" alt="">
+                        </div>
+                        <div class="col-lg-6 mb-0 d-flex align-items-center">
+                            <div class="text-align-left">
+                                <h1 class="h1">Hi Garden Tea</h1>
+                                <h3 class="h2">Green Tea</h3>
+                                <p>
+                                    As a powerful source of antioxidants, green tea supplements are an excellent
+                                    way to help your heart function at its best. Studies suggest that green tea 
+                                    promotes healthy cholesterol levels[ix] ,while also supporting overall cardiovascular activity.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev text-decoration-none w-auto ps-3" href="#template-mo-zay-hero-carousel" role="button" data-bs-slide="prev">
+            <i class="fas fa-chevron-left"></i>
+        </a>
+        <a class="carousel-control-next text-decoration-none w-auto pe-3" href="#template-mo-zay-hero-carousel" role="button" data-bs-slide="next">
+            <i class="fas fa-chevron-right"></i>
+        </a>
+    </div>
+    <!-- End Banner Hero -->
+
+
+    <!-- Start Categories of The Month -->
+<div class="categories">
+    <section class="container py-5">
+        <div class="categories"></div>
+        <div class="row text-center pt-3">
+            <div class="col-lg-6 m-auto">
+                <h1 class="h1"><b>Choose your Tea</b></h1>
+                
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-4 p-5 mt-3">
+                <div class="flip-card" tabIndex="0">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <a href="#"><img src="{% static 'img/lemon grass greent ea.png' %}" class="rounded-circle img-fluid"></a>
+                      </div>
+                      <div class="flip-card-back">
+                        
+                        <p>Lemon Grass Tea<br>Lemon Grass whole leaf Organic Green tea is a smooth and delicate
+                             blend of antioxidant rich green tea underscored by a hint of refreshing lemon grass...</p>
+                      </div>
+                    </div>
+                  </div>
+                
+            </div>
+            <div class="col-12 col-md-4 p-5 mt-3">
+                <div class="flip-card" tabIndex="0">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <a href="#"><img src="{% static '/img/lemon icea tea.png' %}" class="rounded-circle img-fluid"></a>
+                      </div>
+                      <div class="flip-card-back">
+                      <p>Lemon Icea Tea<br>A regular dose of consuming lemon tea surely aids this
+                             and reduces the risk of cardiovascular diseases as well as lowers the risk of a stroke</p>
+                      </div>
+                    </div>
+                  </div>
+
+            </div>
+            <div class="col-12 col-md-4 p-5 mt-3">
+                <div class="flip-card" tabIndex="0">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <a href="#"><img src="{% static 'img/peach ice tyea.png' %}" class="rounded-circle img-fluid"></a>
+                      </div>
+                      <div class="flip-card-back">
+                     <p>Peach Ice Tea <br>Regardless if you are drinking peach leaf tea or peach tea blended with real or rooibos tea, you may expect a lot of potential health benefits.</p>
+                      </div>
+                    </div>
+                  </div>
+                
+            </div>
+            <div class="col-12 col-md-4 p-5 mt-3">
+                <div class="flip-card" tabIndex="0">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <a href="#"><img src="{% static 'img/jasmine chamomile.png' %}" class="rounded-circle img-fluid"></a>
+                      </div>
+                      <div class="flip-card-back">
+                      <p>Jasmine Chamomile Tea<br>Blended with tender whole leaf organic green tea, this delicate tea 
+                            is an invitation to relax. Fragrant Jasmine flowers and soothing Chamomile petals...</p>
+                      </div>
+                    </div>
+                  </div>
+                
+            </div>
+            <div class="col-12 col-md-4 p-5 mt-3">
+                <div class="flip-card" tabIndex="0">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <a href="#"><img src="{% static '/img/rose mint.png' %}" class="rounded-circle img-fluid"></a>
+                      </div>
+                      <div class="flip-card-back">
+                        <p>Rose Mint Tea<br>Rose petals with cooling mint create a medley of 
+                            passion A new age blend, this tea is a heady combination of..</p>
+                      </div>
+                    </div>
+                  </div>
+                
+            </div>
+            <div class="col-12 col-md-4 p-5 mt-3">
+                <div class="flip-card" tabIndex="0">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <a href="#"><img src="{% static '/img/strawberry.png' %}" class="rounded-circle img-fluid"></a>
+                      </div>
+                      <div class="flip-card-back">
+                        <p>Strawberry Tea<br> black tea blended with aromatic strawberry digestive 
+                        ginger and aphrodisiac rose petals with a dash of peppermint...</p>
+                      </div>
+                    </div>
+                  </div>
+               
+            </div>
+            <div class="col-12 col-md-4 p-5 mt-3">
+                <div class="flip-card" tabIndex="0">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <a href="#"><img src="{% static 'img/blackcurrent ice tea.png' %}" class="rounded-circle img-fluid"></a>
+                      </div>
+                      <div class="flip-card-back">
+                        
+                        <p>Blackcurrent Ice Tea<br>Black currant may help to reduce inflammation which may be very beneficial for those
+                             suffering from diabetes, cardiovascular diseases and obesity</p>
+                      </div>
+                    </div>
+                  </div>
+            
+            </div>
+            <div class="col-12 col-md-4 p-5 mt-3">
+                <div class="flip-card" tabIndex="0">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <a href="#"><img src="{% static '/img/white tea.png' %}" class="rounded-circle img-fluid"></a>
+                  </div>
+                  <div class="flip-card-back">
+                    <P>White Tea<br>For skin glow and radiance and overall detoxification of the body with Organic White Tea.</P>
+                  </div>
+                </div>
+              </div>
+               
+            </div>
+            <div class="col-12 col-md-4 p-5 mt-3">
+                <div class="flip-card" tabIndex="0">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <a href="#"><img src="{% static 'img/cranberry ice tea.png' %}" class="rounded-circle img-fluid"></a>
+                      </div>
+                      <div class="flip-card-back">
+                       
+                        <p>Cranberry Tea<br>Cranberry tea is a rich source of vitamin C, E, and K, which are essential for the body. 
+                            It is said to eliminate toxins, burn fat, and increase metabolism, leading to weight loss. Moreover,
+                             its detox effects offer benefits for the liver, lymph nodes, kidneys, and urinary tract</p>
+                      </div>
+                    </div>
+                  </div>
+                
+            </div>
+            <div class="col-12 col-md-4 p-5 mt-3">
+                <div class="flip-card" tabIndex="0">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <a href="#"><img src="{% static '/img/bluberry.png' %}" class="rounded-circle img-fluid"></a>
+                      </div>
+                      <div class="flip-card-back">
+                     <p> Bluberry Tea<br> Blueberry tea can offer a number of excellent health benefits, which may include its potential ability 
+                            to protect against cancer, strengthen heart health, increase bone density, and boost the immune system.</p>
+                      </div>
+                    </div>
+                  </div>
+                
+            </div>
+            <div class="col-12 col-md-4 p-5 mt-3">
+                <div class="flip-card" tabIndex="0">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <a href="#"><img src="{% static '/img/glowing skin.png' %}" class="rounded-circle img-fluid"></a>
+                      </div>
+                      <div class="flip-card-back">
+                <p>Glowing Skin Tea<br> skin glow and radiance and overall detoxification of the body with Organic Rooibos</p>
+                      </div>
+                    </div>
+                  </div>
+                
+            </div>
+            <div class="col-12 col-md-4 p-5 mt-3">
+                <div class="flip-card" tabIndex="0">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <a href="#"><img src="{% static '/img/chocolate tea.png' %}" class="rounded-circle img-fluid"></a>
+                      </div>
+                      <div class="flip-card-back">
+                    <p>Chocolate Tea<br>The flavanols in chocolate have antioxidant, anti-inflammatory properties,
+                             keeping free radicals at bay. They help to invade cells and reduce cancer risk.</p>
+                      </div>
+                    </div>
+                  </div>
+                
+            </div>
+            <div class="col-12 col-md-4 p-5 mt-3">
+                <div class="flip-card" tabIndex="0">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <a href="#"><img src="{% static 'img/Darjelling Tea.png' %}" class="rounded-circle img-fluid"></a>
+                      
+                      </div>
+                      <div class="flip-card-back">
+                            <p>Darjeeling Tea<br>Masala chai is a tea beverage made by boiling black tea
+                             in milk and water with a mixture of aromatic herbs and spices.</p>
+                      </div>
+                    </div>
+                  </div>
+                
+            </div>
+            <div class="col-12 col-md-4 p-5 mt-3">
+                <div class="flip-card" tabIndex="0">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <a href="#"><img src="{% static 'img/green tea.png'%}" class="rounded-circle img-fluid"></a>
+                      </div>
+                      <div class="flip-card-back">
+                     
+                        <p>Green Tea<br>An enchanting blend from the most romantic place in Kashmir, India. Selected organic...</p>
+                      </div>
+                    </div>
+                  </div>
+                
+            </div>
+            
+        </div>
+    </section>
+</div>
+    <!-- End Categories -->
+    
+    <div class="row text-center pt-5 pb-3">
+        <div class="col-lg-6 m-auto">
+            <h1 class="h1">Our Motto</h1>
+            <p>
+                Everything we do starts with three main objectives – Pure Joy, Clean Life, Inspiring Tea.
+                From the day our tea arrives for blending and packaging to well after you enjoy your first cup.
+            </p>
+        </div>
+        
+    </div>
+    <div>
+        <a href="https://api.whatsapp.com/send?phone=51955081075&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." class="float" target="_blank">
+            <i class="fa fa-whatsapp my-float"></i>
+            
+            </a>
+    </div>
+
+
+
+    <!-- Start Footer -->
+    <footer class="bg-dark" id="tempaltemo_footer">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-4 pt-5">
+                    <h2 class="h2 text-success border-bottom pb-3 border-light logo">Hi Garden Tea</h2>
+                    <ul class="list-unstyled text-light footer-link-list">
+                        <li>
+                            <i class="fas fa-map-marker-alt fa-fw"></i>
+                            Balaji Mandir, Bunglow No.59,
+                            Nr Choukanna, Madhya Pradesh 458441
+                        </li>
+                        <li>
+                            <i class="fa fa-phone fa-fw"></i>
+                            <a class="text-decoration-none" href="tel:+91 93033 26202">+91 93033 26202</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-envelope fa-fw"></i>
+                            <a class="text-decoration-none" href="mailto:vipkaorganics@gmail.com">vipkaorganics@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+
+                
+
+               
+
+            </div>
+
+            <div class="row text-light mb-4">
+                <div class="col-12 mb-3">
+                    <div class="w-100 my-3 border-top border-light"></div>
+                </div>
+                <div class="col-auto me-auto">
+                    <ul class="list-inline text-left footer-icons">
+                       
+                        <li class="list-inline-item border border-light rounded-circle text-center">
+                        <a class="text-light text-decoration-none" target="_blank" href="https://www.instagram.com/p/CdgdsTwKvVY/?igshid=MDJmNzVkMjY=.com/"><i class="fab fa-instagram fa-lg fa-fw"></i></a>
+                        
+                    </ul>
+                </div>
+                
+
+
+            </div>
+        </div>
+
+        <div class="w-100 bg-black py-3">
+            <div class="container">
+                <div class="row pt-2">
+                    <div class="col-12">
+                        <p class="text-left text-light">
+                            Copyright &copy; 2021 Hi Garden Tea 
+                        
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Start Script -->
+    <script src="{% static 'js/jquery-1.11.0.min.js'%}"></script>
+    <script src="{% static '/js/jquery-migrate-1.2.1.min.js' %}"></script>
+    <script src="{% static '/js/bootstrap.bundle.min.js' %}"></script>
+    <script src="{% static '/js/templatemo.js' %}"></script>
+    <script src="{% static '/js/custom.js'%}"></script>
+    <!-- End Script -->
+</body>
+
+</html>
